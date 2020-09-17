@@ -8,14 +8,12 @@
 	<title>Manal Resume/CV Html5 Template</title>
     <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16"> 
     
-    
+    <link rel="stylesheet" href="http://cdn.bootstrapmb.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="http://cdn.bootstrapmb.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/jquery.animatedheadline.css" />
-	<link rel="stylesheet" href="css/strip.css">
 	<link rel="stylesheet" href="css/materialize.css">
-	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/strip.css">
 	<link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color.css">
@@ -75,7 +73,7 @@
 		</div>
 		<div class="contact-info">
 			<span><i class="fa fa-phone"></i> + (1) 123-272-778</span>
-			<span><i class="fa fa-envelope-o"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="691a080419050c290e04080005470a0604">[email&#160;protected]</a></span>
+			<span><i class="fa fa-envelope-o"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d6a5b7bba6bab396b1bbb7bfbaf8b5b9bb">[email&#160;protected]</a></span>
 		</div>
 		<div class="logo">
 			<!--<a href="index.html" data-fill="Steve Jason">Steve Jason</a>-->
@@ -118,41 +116,50 @@
 								<div class="bredcrumb">
 									<ul>
 										<li><a href="#" title="">Home</a></li>
-										<li><span>About Me</span></li>
+										<li><span>Contact</span></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="content-box">
-							<div class="gap-20">
+							<div class="gap no-gap">
 								<div class="container-fluid">
 									<div class="row">
-										<div class="col-lg-6 col-md-6">
-											<div class="about-info">
-												<h5 class="title">Objective</h5>
-												<p>
-													My aim to work in Multinational organisation as a senior software engineer, i sure i will do something good in future for the company and boostup the company as per my knowledge. i hope you consider me for the post of you required. i will prove myself as good as per my knowledge. 
-												</p>
-												<h4>Total Experience <span>10 years</span></h4>
-												<a href="blog.html" class="butn butn-bg">My blog</a>
+										<div class="col-lg-6">
+											<div class="g-map">
+												<div id="map-canvas" style="height: 340px !important"></div>
 											</div>
 										</div>
-										<div class="col-lg-6 col-md-6">
-											<h5 class="title">about personal</h5>
-											<ul class="personal-info">
-												<li><span class="font-weight-600">First Name: </span>Steve</li>
-												<li><span class="font-weight-600">Last Name: </span>Jason</li>
-												<li><span class="font-weight-600">Date of birth: </span>21 june 1990 </li>
-												<li><span class="font-weight-600">Nationality: </span>Italy</li>
-												<li><span class="font-weight-600">Freelance: </span>Available</li>
-												<li><span class="font-weight-600">Phone: </span>+49 21 18 40 10</li>
-												<li><span class="font-weight-600">Address: </span>Madrid, Spain</li>
-												<li><span class="font-weight-600">Email: </span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="98e1f7edd8e1f7edeaeffdfaebf1ecfdb6fbf7f5">[email&#160;protected]</a></li>
-												<li><span class="font-weight-600">Langages: </span>French - German</li>
-												<li><span class="font-weight-600">Skype: </span>steve.jason</li>
-											</ul>
+										<div class="col-lg-6">
+											<div class="about-info">
+												<span>Feel free to drop me a line</span>
+												<div class="contact-form">
+													<div id="message"></div>
+													<form id="contact-form" action="contact.php" method="post">
+														<div class="form-group">	
+														  <input id="name" type="text" required="required"/>
+														  <label class="control-label">Your Name *</label><i class="mtrl-select"></i>
+														</div>
+														<div class="form-group">	
+														  <input id="email" type="text" required="required"/>
+														  <label class="control-label">Email Address *</label><i class="mtrl-select"></i>
+														</div>
+														<div class="form-group">	
+														  <textarea id="comments" rows="4" required="required"></textarea>
+														  <label class="control-label">Write your message</label><i class="mtrl-select"></i>
+														</div>
+														<div class="verification">
+	                                                        <div class="g-recaptcha" data-sitekey="6LelmzAUAAAAAHBE2SJeRMfnzYVxH9RMGQstUij2"></div>
+	                                                    </div>
+														<div id="submit" class="submit-btns wow fadeInUp" data-wow-delay="0.2s">
+															<button class="butn butn-bg" type="submit">Send A Message</button>
+															<img src="images/ajax-loader.gif" class="loader" alt="" />
+														</div>
+													</form>
+												</div>
+
+											</div>
 										</div>
-										
 									</div>
 								</div>
 							</div>
@@ -194,11 +201,16 @@
 </div>
     	<script src="js/jquery.js"></script>
 		<script src="js/popperjs-bootstrap.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scrolltopcontrol.js"></script>
 		<script src="js/jquery.counterup.min.js"></script>
 		<script src="js/jquery.animatedheadline.js"></script>
+		<script src="js/strip.pkgd.min.js"></script>
 		<script src="js/slick.min.js"></script>
+		<script src="js/scrolltopcontrol.js"></script>
 		<script src="js/script.js"></script>
+		<script src="js/map-init.js"></script>
+		<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyA8c55_YHLvDHGACkQscgbGLtLRdxBDCfI"></script>
+
 </body>	
 </html>
