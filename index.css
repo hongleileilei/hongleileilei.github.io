@@ -87,9 +87,6 @@ header {
     float: right;
   }
   
-  .researchimage:hover {
-    box-shadow: 0px 0px 4px 1px rgb(219, 48, 48);
-  }  
   .projectimage {
     width: 40%;
     padding-top: 25%;
