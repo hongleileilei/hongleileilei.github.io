@@ -1,12 +1,13 @@
 var main = function() {
     // navigate nav
+
     $("#nav a span").click(function() {
       var firstChar = $(this)
         .text()
         .charAt(0);
       var newPos = 0;
       switch (firstChar) {
-        case "A":
+        case "I":
           newPos = $("#about").offset().top;
           break;
         case "R":
@@ -17,9 +18,8 @@ var main = function() {
             break;
         case "C":
           newPos = $("#contact").offset().top;
-          break;
+          break;       
       }
-  
       newPos -= $("header").outerHeight();
       $(document).scrollTop(newPos);
     });

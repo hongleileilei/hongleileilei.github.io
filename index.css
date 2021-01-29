@@ -16,18 +16,19 @@ header {
     top: 0;
     padding: 12px, 30px;
     color: black;
-  
     text-align: center;
     font-weight: bold;
   }
   
 #name {
     color: black;
-    height: 100px;
+    height: 120px;
     text-align: center;
-    font-weight: bold;
-    font-family: "Roboto Black";
-    font-size: 58px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-top: 50px;
+    font-size: 60px;
   }
   #nav {
     overflow: hidden;
@@ -54,7 +55,7 @@ header {
   }
   
   #nav a span:hover {
-    color: rgb(219, 48, 48);
+    color: white;
     cursor: pointer;
   }
   
@@ -63,7 +64,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    border-bottom: 4px solid rgb(219, 48, 48);
   }
   .project {
     width: 100%;
@@ -86,7 +86,7 @@ header {
     background-size: cover;
     float: right;
   }
-  
+
   .projectimage {
     width: 40%;
     padding-top: 25%;
@@ -100,12 +100,12 @@ header {
   }
   
   .projectimage:hover {
-    box-shadow: 0px 0px 4px 1px rgb(219, 48, 48);
+    box-shadow: 0px 0px 4px 1px white;
   }  
   .sectionname {
     font-family: "Roboto Black";
-    color: rgb(219, 48, 48);
-    text-align: center;
+    color: black;
+    text-align: left;
     font-weight: bold;
     font-size: 38px;
   }
@@ -114,14 +114,12 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    border-bottom: 4px solid rgb(219, 48, 48);
   }
   #researches {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    border-bottom: 4px solid rgb(219, 48, 48);
   }
   .projecttext {
     width:50%;
@@ -135,8 +133,8 @@ header {
     height: 100%;
     color: rgb(37, 115, 204);
     font-weight: bold;
-    text-align: center;
     font-size: 26px;
+    font-style: italic;
   }
 
 
@@ -153,8 +151,8 @@ header {
     height: 100%;
     color: rgb(37, 115, 204);
     font-weight: bold;
-    text-align: center;
     font-size: 26px;
+    font-style: italic;
   }
 
   #ShanLin .researchimage{
@@ -182,7 +180,7 @@ header {
     background-image: url("images/robot.png");      
   }
   #arms .projectimage{
-    border: 1px solid rblack;
+    border: 1px solid black;
     background-image: url("images/arms.png");      
   }
   #contact {
