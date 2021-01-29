@@ -33,12 +33,14 @@ header {
     overflow: hidden;
     width: 70%;
     display: inline-block;
+    background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
   }
   #nav a {
     display: inline-block;
     color: black;
+    background-color: burlywood;
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;
