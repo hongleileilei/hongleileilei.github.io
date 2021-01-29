@@ -11,24 +11,22 @@ a {
     color: rgb(8, 50, 187);
   }
 header {
-    background:black;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
     padding: 12px, 30px;
-    color: white;
+    color: black;
     text-align: center;
     font-weight: bold;
   }
   
 #name {
-    color: white;
+    color: black;
+    height: 100px;
     text-align: center;
     font-weight: bold;
-    background: rgb(33, 44, 51);
     font-family: "Roboto Black";
     font-size: 58px;
-    height: 90px;
   }
   #nav {
     overflow: hidden;
@@ -39,7 +37,7 @@ header {
   }
   #nav a {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;
