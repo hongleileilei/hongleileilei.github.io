@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Honglei Liu</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+              integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymou">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+
+    <body>
+        <div id="name">Honglei Liu</div>
+
+        <header>
+            <nav id="nav">
+                <a><span>About</span</a>
+                <a><span>Researches</span></a>
+                <a><span>Projects</span></a>
+                <a><span>Contact</span></a>                
+                </nav>
+        </header>
+
+        <div id="about">
+            <div class="sectionname">
+                About Me
+            </div>
+
+            <p>
+                Hello! I am Honglei Liu, a recent new graduate student from Stony Brook University,SUNY
+                with a degree of Master of Science, majoring in Computer Engineering. I am proficient in
+                Python and C/C++, and familiar with Java and JavaScript. In the meantime, I am learning 
+                Back-End DevOps. Currently, I am actively seeking Software Engineer full-time position.
+                Feel free to contact me anytime if you have interests on me.
+            </p>
+        </div>
+
+
+
+        <div id="researches">
+            <div class="sectionname">
+                Researches
+            </div>
+            <div id="ShanLin" class="research">
+                <div class='researchtitle'>
+                    <p>
+                        Shan Lin's Research Group
+                    </p>
+                </div>
+                <div class="researchimage">
+                    
+                </div>
+                <div class="researchtext">
+                    <p>
+                        Charging problem becomes more serious when commercial electrical vehicles are introduced.
+                        In this research, I performed code revision for the existed simulation program
+                        to make the extracted NYC taxi dataset fit the proactively partial charging algorithm.  
+                        In addition, a visualized version of proactively partial charging algorithm is being developed. 
+                        <br>
+                        Performed data extraction and visualization to the Newark requests dataset. Developed visualization
+                        for the request distribution.
+                    </p>
+                    <span class="langs">Developed with Pandas and Shapely</span>
+                </div>
+            </div>
+
+            <div id="IACS" class="research">
+                <div class='researchtitle'>
+                    <p>
+                        Exscallab at IACS
+                    </p>
+                </div>
+                <div class="researchimage">
+                    
+                </div>
+                <div class="researchtext">
+                    <p>
+                        LLVM/OpenMP is one of the top choice for parallelism compilers. 
+                        In the research, I optimized the 
+                        omp_target_memcpy() function by introducing new variables and extending various conditions. As a result,
+                        when we do memcpy from one GPU to another GPU, as long as the GPUs come from the same vendor, a direct
+                        memcpy will be performed instead of using CPU as media.
+                    </p>
+                    <span class="langs">Developed with C/C++</span>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id="projects">
+            <div class="sectionname">
+                Projects
+            </div>
+
+
+            <div id="calculator" class="project">
+                <div class='projecttitle'>
+                    <p>
+                        Hand-Written Digit Calculator
+                    </p>
+                </div>
+                <a href="https://github.com/hongleileilei/Machine_Learning" target="_blank">
+                    <div class="projectimage">
+                        
+                    </div>
+                </a>
+                <div class="projecttext">
+                    <p>
+                        Deep learning is one of the hot topics nowadays. Using the knowledge of CNN, I developed
+                         a calculator that accepts hand written user input and allows us to do either addition, 
+                        subtraction, multiplication and division continuously. 
+                    </p>
+                    <span class="langs">Developed with OpenCV, Pygame, Scipy and Keras</span>
+                    <br>
+                    <a href="https://github.com/hongleileilei/Machine_Learning" target="_blank">Link to the source code</a>
+                </div>
+            </div>
+
+            
+            <div id="game" class="project">
+                <div class='projecttitle'>
+                    <p>
+                        Turn Based Game
+                    </p>
+                </div>
+                <a href="https://github.com/hongleileilei/Turn_Based_Game" target="_blank">
+                    <div class="projectimage">
+                        
+                    </div>
+                </a>
+                <div class="projecttext">
+                    <p>
+                        Developing a game is always attractive to me. Using Finite State Machine as macro design and 
+                        Pygame as tools, I designed an application that play strategy game with different level AI, which
+                        is implemented by A* algorithm.
+                    </p>
+                    <span class="langs">Developed with Pygame, Designed Object-Orientedly</span>
+                    <br>
+                    <a href="https://github.com/hongleileilei/Turn_Based_Game" target="_blank">Link to the source code</a>
+                </div>
+            </div>
+
+            <div id="car" class="project">
+                <div class='projecttitle'>
+                    <p>
+                        Autonomous Car
+                    </p>
+                </div>
+                <a href="/images/car.MP4" target="_blank">
+                    <div class="projectimage">
+                        
+                    </div>
+                </a>
+                <div class="projecttext">
+                    <p>
+                        Self-Driving is undoubtedly a hot and interesting topic nowadays. With the help of EAGLE, we designed our
+                        own PCB from scratch, realizing speed-change and turning on servo-motor. We also programmed a PID controller
+                        in the OpenMV components so our car could dynamically changing its speed based on the road condition. Last but
+                        not the least, we tuning our PID controller to reach the max speed of our car.
+                    </p>
+                    <span class="langs">Developed with OpenMV, OpenCV and EAGLE</span>
+                    <br>
+                    <a href="/images/car.MP4" target="_blank">Link to the demo</a>
+                    <br>
+                </div>
+            </div>
+
+            <div id="robot" class="project">
+                <div class='projecttitle'>
+                    <p>
+                        Robot Simulation
+                    </p>
+                </div>
+                <a href="https://github.com/hongleileilei/SystemC_Project/tree/master/proj2" target="_blank">
+                    <div class="projectimage">
+                        
+                    </div>
+                </a>
+                <div class="projecttext">
+                    <p>
+                        SystemC is one hardware descriptive language, which means we may use it to realize some simulation.
+                        In this project, we used SystemC as our tool and designed a robot simulation program that can simulate
+                        the action of one robot when facing various obstacles like moving blocks, static blocks, cornors and etc.
+                    </p>
+                    <span class="langs">Developed with SystemC (one extension in C++)</span>
+                    <br>
+                    <a href="https://github.com/hongleileilei/SystemC_Project/tree/master/proj2" target="_blank">Link to the source code</a>
+                    <br>
+                </div>
+            </div> 
+
+            <div id="arms" class="project">
+                <div class='projecttitle'>
+                    <p>
+                        Wireless Sync Robotic Arms
+                    </p>
+                </div>
+                <a href="https://github.com/hongleileilei/Embedded_System" target="_blank">
+                    <div class="projectimage">
+                        
+                    </div>
+                </a>
+                <div class="projecttext">
+                    <p>
+                        Tiva Launch-Board is one embedded system board allows us using wireless module to communicate with AWS.
+                        In this project, we designed modules for recognizing, storing joy-stick motions and for performing orders on manipulators.
+                        Then, we designed RESTful API for communication between two Tiva Launch-Board via AWS and realize the motion synchronization.
+                    </p>
+                    <span class="langs">Developed with Tiva Launch-Board, written in C</span>
+                    <br>
+                    <a href="https://github.com/hongleileilei/Embedded_System" target="_blank">Link to the source code</a>
+                    <br>
+                </div>
+            </div> 
+        </div>
+
+        <div id="contact">
+            <div class="sectionname">
+                Contact
+            </div>
+            <div class="row-container" id="icon-bar">
+                <a href="files/Resume.pdf" class="big-icon" target="_blank">
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-file fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+                
+                <a href="https://github.com/hongleileilei" class="big-icon" target="_blank">
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/honglei-liu-857084195/" class="big-icon" target="_blank">
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+                <a href="mailto:holliu9999@gmail.com" class="big-icon" target="_blank">
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+                <a href="tel:+1-530-302-7887" class="big-icon" target="_blank">
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </div>            
+        </div>
+    </body>
+    <footer>@ 2021 Honglei Liu</footer>
+</html>

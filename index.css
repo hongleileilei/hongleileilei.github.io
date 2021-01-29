@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  background-image: linear-gradient(135deg, #bbe5f8 50%, #bdd4fa 50%);
+  color: black;
+  margin: 0;
+  font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(8, 50, 187);
+  }
+header {
+    background:black;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 12px, 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+#name {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background: rgb(33, 44, 51);
+    font-family: "Roboto Black";
+    font-size: 58px;
+  }
+  #nav {
+    overflow: hidden;
+    width: 70%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-family: "Roboto Black";
+    font-size: 25px;
+    width: 20%;
+  }
+  
+#nav a:hover {
+    cursor: auto;
+  }
+  
+  #nav a span:hover {
+    color: rgb(219, 48, 48);
+    cursor: pointer;
+  }
+  
+  #about {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-bottom: 4px solid rgb(219, 48, 48);
+  }
+  .project {
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+  .research {
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+  .researchimage {
+    width: 40%;
+    padding-top: 25%;
+    margin-top: 25px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    overflow: auto;
+    background-size: cover;
+    float: right;
+  }
+  
+  .researchimage:hover {
+    box-shadow: 0px 0px 4px 1px rgb(219, 48, 48);
+  }  
+  .projectimage {
+    width: 40%;
+    padding-top: 25%;
+    margin-top: 25px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    overflow: auto;
+    background-size: cover;
+    float: right;
+  }
+  
+  .projectimage:hover {
+    box-shadow: 0px 0px 4px 1px rgb(219, 48, 48);
+  }  
+  .sectionname {
+    font-family: "Roboto Black";
+    color: rgb(219, 48, 48);
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+  }
+  #projects {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-bottom: 4px solid rgb(219, 48, 48);
+  }
+  #researches {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-bottom: 4px solid rgb(219, 48, 48);
+  }
+  .projecttext {
+    width:50%;
+    float: center;
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  .projecttitle {
+    max-height: 12px;
+    height: 100%;
+    color: rgb(37, 115, 204);
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+  }
+
+
+
+  .researchtext {
+    width: 50%;
+    float: center;
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  .researchtitle {
+    max-height: 12px;
+    height: 100%;
+    color: rgb(37, 115, 204);
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+  }
+
+  #ShanLin .researchimage{
+    border: 1px solid black;
+    background-image: url("images/ShanLinLab.png");
+  }
+  #IACS .researchimage{
+    border: 1px solid black;
+    background-image: url("images/IACS.png");
+  }
+  #calculator .projectimage{
+    border: 1px solid black;
+    background-image: url("images/cal.png");      
+  }
+  #game .projectimage{
+    border: 1px solid black;
+    background-image: url("images/pygame.png");      
+  }
+  #car .projectimage{
+    border: 1px solid black;
+    background-image: url("images/car.png");      
+  }
+  #robot .projectimage{
+    border: 1px solid black;
+    background-image: url("images/robot.png");      
+  }
+  #arms .projectimage{
+    border: 1px solid rblack;
+    background-image: url("images/arms.png");      
+  }
+  #contact {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+  .langs {
+    font-style: italic;
+    color: #7e928c;
+  }
+  
+.row-container {
+    display: flex;
+  }
+  
+  .big-icon {
+    color:black;
+    font-size: 70%;
+  }
+  
