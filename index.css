@@ -171,9 +171,9 @@ header {
     border: 1px solid black;
     background-image: url("images/cal.png");      
   }
-  #framework .projectimage{
+  #web .projectimage{
     border: 1px solid black;
-    background-image: url("images/framework.png");      
+    background-image: url("images/web.png");      
   }
   #game .projectimage{
     border: 1px solid black;
