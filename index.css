@@ -171,6 +171,10 @@ header {
     border: 1px solid black;
     background-image: url("images/cal.png");      
   }
+  #framework .projectimage{
+    border: 1px solid black;
+    background-image: url("images/framework.png");      
+  }
   #game .projectimage{
     border: 1px solid black;
     background-image: url("images/pygame.png");      
